@@ -1,6 +1,6 @@
 <?php
     class Pedidos {
-        public function db() {
+        private function db() {
             $con = new Connection;
             if($init = $con->init()) {
                 return $init;
