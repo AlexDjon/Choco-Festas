@@ -1,0 +1,37 @@
+{
+    "Infos":
+        [
+            {
+                "nome": "SITE_NAME",
+                "dados": "ChocoFestas"
+            },
+            {
+                "nome": "SITE_AUTHOR",
+                "dados": "Alex Djonata"
+            },
+            {
+                "nome": "SITE_DOMAIN",
+                "dados": "http://127.0.0.4/chocofestas/"
+            },
+            {
+                "nome": "SITE_VIEWS",
+                "dados": "views/"
+            },
+            {
+                "nome": "SITE_IMAGES",
+                "dados": "assets/images/"
+            },
+            {
+                "nome": "SITE_CSS",
+                "dados": "assets/css/"
+            },
+            {
+                "nome": "SITE_JS",
+                "dados": "assets/js/"
+            },            
+            {
+                "nome": "SITE_CLASS",
+                "dados": "includes/class/"
+            }
+        ]
+}

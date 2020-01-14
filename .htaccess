@@ -1,0 +1,8 @@
+# All Configs
+Options -Indexes
+RewriteEngine on
+
+# Urls Amigaveis
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z,0-9,A-Z,_-]+)$ index.php?p=$1&%{QUERY_STRING} [NC,L]
