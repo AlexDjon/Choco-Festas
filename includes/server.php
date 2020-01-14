@@ -2,6 +2,7 @@
 date_default_timezone_set('America/Sao_Paulo');
 
 // Classes
+require_once 'class/Connection.class.php';
 require_once 'class/Pedidos.class.php';
 $pedidos = new Pedidos;
 

@@ -17,12 +17,16 @@ const pedidos = {
         const local = encodeURI(`includes/server.php?a=listar&pesquisa=${dados.pesquisa}&filtro=${dados.filtro}&rows=${dados.rows}`)
         const action = jQuery.get(local, function(data) {
             pedidos.limparPedidos()
-            const retorno = JSON.parse(data)
-            console.log(`Encontrado ${retorno.length} pedido(s)`)
-            for(i in retorno) {
-                pedidos.renderizar(retorno[i])
+            try {
+                const retorno = JSON.parse(data)
+                console.log(`Encontrado ${retorno.length} pedido(s)`)
+                for(i in retorno) {
+                    pedidos.renderizar(retorno[i])
+                }
+                pedidos.conferir()
+            } catch {
+                console.log('Ocorreu um erro na listagem')
             }
-            pedidos.conferir()
         })
     },
     renderizar: function(dados) {

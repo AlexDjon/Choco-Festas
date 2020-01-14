@@ -1,17 +1,10 @@
 <?php
     class Pedidos {
-        private function db() {
-            /**
-             * Conexao
-             */
-            $db_host = '127.0.0.4';
-            $db_user = 'root';
-            $db_pass = '';
-            $db_name = 'chocofestas';
-
-            $connection = new mysqli($db_host, $db_user, $db_pass, $db_name);
-
-            return $connection;
+        public function db() {
+            $con = new Connection;
+            if($init = $con->init()) {
+                return $init;
+            }
         }
 
         public function verificar() {
