@@ -7,7 +7,7 @@ if(!isset($_SESSION)) {
 date_default_timezone_set('America/Sao_Paulo');
 
 // Senha
-$systemPassword = 'Boxcodev';
+$systemPassword = 'Chocofestas';
 
 // Criar constantes de informações sobre o site
 $infosDoSite = json_decode(file_get_contents('assets/infos.json'));
