@@ -11,6 +11,7 @@ Sistema de Anotações de Pedidos para um amigo, utilizando JavaScript e ajax pa
 - No phpmyadmin criar um banco de dados
 - Também no phpmyadmin ir nesse BD e Inserir o arquivo chocofestas.sql para criar a tabela (já tem pré registros)
 - Alterar as configurações dos arquivos */assets/infos.json* & */includes/classes/Connection.class.php*
+- **Senha:** Chocofestas
 
 **Desenvolvedor**
 - [Facebook](https://www.facebook.com/alex.djonata.52)
