@@ -22,11 +22,11 @@ if(isset($_GET['a'])) {
 			if(isset($_POST['senha']) && $_POST['senha'] == $systemPassword) {
 				setcookie('logado', 1);
 			}
-			header('Location: /chocofestas/');
+			header('Location: '.SITE_RAIZ);
 		break;
 		case 'logout':
 			setcookie('logado');
-			header('Location: /chocofestas/');
+			header('Location: '.SITE_RAIZ);
 		break;
 	}
 }

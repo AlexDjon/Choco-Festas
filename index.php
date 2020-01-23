@@ -33,7 +33,7 @@ if (isset($_GET['p'])) {
 	}
 }
 else {
-	header('Location: /chocofestas/inicio');
+	header('Location: '.SITE_RAIZ.'inicio');
 }
 
 ?>
