@@ -196,3 +196,5 @@ const popup = {
     }
 }
 
+Object.freeze(pedidos)
+Object.freeze(popup)
