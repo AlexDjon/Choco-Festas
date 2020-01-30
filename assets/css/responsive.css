@@ -1,6 +1,10 @@
 /*=== Media Devices ===*/
 /*-- Smartphones --*/
 @media screen and (max-width: 768px) {
+    .login { width: 80%; margin: 130px 5%; }
+    .login input[type=password] { margin: 0 5% 0 7%; }
+    .login input[type=submit] { width: 26%; }
+
     /* Cabecalho */
     .cabecalho { height: 75px; }
     .cabecalho-logo { height: 75px; width: 30%; }
