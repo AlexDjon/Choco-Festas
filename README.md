@@ -1,11 +1,12 @@
 # Choco-Festas
 Sistema de Anotações de Pedidos para um amigo, utilizando JavaScript e ajax para fazer requisições no Php.
+- [Vizualizar](http://alexdjonata.tk/inicio)
 - Criação, edição e exclusão de pedidos
 - Listagem com filtros e campo de pesquisa
 - Unico framework utilizado - Jquery
 - Layout Responsivo para pode criar pedidos a partir de qualquer aparelho
 
-**Para Rodar**
+**Para Rodar no Localhost**
 - Servidor Apache e MySql (local)
 - Colocar os Arquivos na pasta htdocs do Apache
 - No phpmyadmin criar um banco de dados
