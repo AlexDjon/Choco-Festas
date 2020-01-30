@@ -4,6 +4,7 @@
     <meta charset='utf-8'>
     <title><?= SITE_NAME ?> - Início</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta http-equiv="refresh" content="10">
     <link rel='shortcut icon' href='<?= SITE_IMAGES ?>favicon.png'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
