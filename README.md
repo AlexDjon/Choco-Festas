@@ -1,4 +1,5 @@
 # Choco-Festas
+-[Chocofestas](https://github.com/AlexDjon/Choco-Festas/blob/master/assets/images/logo.png?raw=true)
 Sistema de Anotações de Pedidos para um amigo, utilizando JavaScript e ajax para fazer requisições no Php.
 - [Vizualizar](http://alexdjonata.tk/inicio)
 - **Senha:** Chocofestas
