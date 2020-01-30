@@ -1,5 +1,8 @@
 # Choco-Festas
--[Chocofestas](https://github.com/AlexDjon/Choco-Festas/blob/master/assets/images/logo.png?raw=true)
+<p align="center">
+  <img align="center" width="350" src="https://github.com/AlexDjon/Choco-Festas/blob/master/assets/images/logo.png?raw=true">
+</p>
+
 Sistema de Anotações de Pedidos para um amigo, utilizando JavaScript e ajax para fazer requisições no Php.
 - [Vizualizar](http://alexdjonata.tk/inicio)
 - **Senha:** Chocofestas
