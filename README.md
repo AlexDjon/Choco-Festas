@@ -1,17 +1,24 @@
-# Choco-Festas
 <p align="center">
   <img align="center" width="350" src="https://github.com/AlexDjon/Choco-Festas/blob/master/assets/images/logo.png?raw=true">
 </p>
 
-Sistema de Anotações de Pedidos para um amigo, utilizando JavaScript e ajax para fazer requisições no Php.
-- [Vizualizar](http://alexdjonata.tk/inicio)
-- **Senha:** Chocofestas
+<p align="center">
+  Sistema de Anotações de Pedidos para um amigo, utilizando JavaScript e ajax para fazer requisições no Php.
+</p>
+<blockquote> Site para vizualização: <a href="http://alexdjonata.tk/inicio"> entrar </a> </blockquote>
+<blockquote> Senha: Chocofestas </blockquote>
+
+<hr>
+
+## Detalhes
 - Criação, edição e exclusão de pedidos
 - Listagem com filtros e campo de pesquisa
 - Unico framework utilizado - Jquery
 - Layout Responsivo para pode criar pedidos a partir de qualquer aparelho
 
-**Para Rodar no Localhost**
+<hr>
+
+## Para Rodar no Localhost
 - Servidor Apache e MySql (local)
 - Colocar os Arquivos na pasta htdocs do Apache
 - No phpmyadmin criar um banco de dados
@@ -20,7 +27,9 @@ Sistema de Anotações de Pedidos para um amigo, utilizando JavaScript e ajax pa
 - **Senha:** Chocofestas
 - **Obs:** Manter o nome da pasta como Choco-Festas
 
-**Desenvolvedor**
+<hr>
+
+## Desenvolvedor
 - [Facebook](https://www.facebook.com/alex.djonata.52)
 - [Twitter](https://twitter.com/AlexDjonata)
-- Discord: Alexxx#8311
+- Discord: `Alexxx#8311`
