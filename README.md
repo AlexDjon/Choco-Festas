@@ -5,7 +5,7 @@
 <p align="center">
   Sistema de Anotações de Pedidos para um amigo, utilizando JavaScript e ajax para fazer requisições no Php.
 </p>
-<blockquote> Site para vizualização: <a href="https://welcometoalex.space/orion/"> entrar </a> </blockquote>
+<blockquote> Site para vizualização: <a href="https://welcometoalex.space/choco/"> entrar </a> </blockquote>
 <blockquote> Senha: Chocofestas </blockquote>
 
 <hr>
